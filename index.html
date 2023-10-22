@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="animate.css/animate.min.css" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="hamber/hamber.css" />
+  </head>
+  <body class="scroll-smooth">
+    <div class="webmain flex">
+      <!--navbar-->
+
+      <input
+        type="checkbox"
+        name=""
+        id="nav-check"
+        class="hamber absolute top-[10px] right-[10px] hidden"
+      />
+      <label
+        for="nav-check"
+        class="w-[40px] h-[40px] bg-[#0c9ddd] rounded-full fixed top-[20px] right-[20px] flex justify-center items-center lg:hidden"
+        ><img src="media/icons8-menu-96.png" alt="" class="w-[24px] h-[24px]"
+      /></label>
+      <nav
+        class="navbar z-50 w-0 h-[100vh] bg-[#040B14] fixed lg:w-[300px] flex flex-col transition-all ease-in-out duration-300 overflow-hidden"
+      >
+        <!--header-->
+        <div class="profile w-[120px] h-[120px] rounded-full mt-[50px] mx-auto">
+          <img
+            src="media/IMG_20230805_210017_891.jpg"
+            alt=""
+            class="rounded-full border-8 border-[#2C2F3F]"
+          />
+        </div>
+
+        <div class="name text-white mt-[16px] mx-auto">
+          <h1 class="font-bold text-[20px]">Arian Amini</h1>
+        </div>
+
+        <div class="socials flex mt-[16px] mx-auto gap-[5px]">
+          <a href="#">
+            <div
+              class="circle w-[36px] h-[36px] rounded-full bg-[#212431] flex justify-center items-center hover:bg-[#0C9DDD] transition-all ease-linear duration-300"
+            >
+              <img
+                src="media/icons8-instagram-logo-50.png"
+                alt=""
+                class="w-[18px] h-[18px]"
+              /></div
+          ></a>
+          <a href="#">
+            <div
+              class="circle w-[36px] h-[36px] rounded-full bg-[#212431] flex justify-center items-center hover:bg-[#0C9DDD] transition-all ease-linear duration-300"
+            >
+              <img
+                src="media/icons8-telegram-logo-50.png"
+                alt=""
+                class="w-[18px] h-[18px]"
+              /></div
+          ></a>
+          <a href="#">
+            <div
+              class="circle w-[36px] h-[36px] rounded-full bg-[#212431] flex justify-center items-center hover:bg-[#0C9DDD] transition-all ease-linear duration-300"
+            >
+              <img
+                src="media/icons8-x-50.png"
+                alt=""
+                class="w-[18px] h-[18px]"
+              /></div
+          ></a>
+          <a href="#">
+            <div
+              class="circle w-[36px] h-[36px] rounded-full bg-[#212431] flex justify-center items-center hover:bg-[#0C9DDD] transition-all ease-linear duration-300"
+            >
+              <img
+                src="media/icons8-youtube-logo-128.png"
+                alt=""
+                class="w-[18px] h-[18px]"
+              /></div
+          ></a>
+        </div>
+        <div
+          class="menu w-[270px] flex flex-col mx-auto mt-[16px] p-[30px] items-center"
+        >
+          <ul class="flex flex-col gap-[20px]">
+            <li>
+              <a
+                href="#Home"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-home text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#About"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-user text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Resume"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-file text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                Resume</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Services"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-server text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Comments"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-comment text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                Comments
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Contact"
+                class="text-[#6F7180] text-[14px] hover:text-white transition-all ease-linear duration-300 group"
+                ><span
+                  class="fas fa-envelope text-[20px] mr-[5px] w-[24px] h-[25px] group-hover:text-[#0c9ddd] transition-all ease-linear duration-300"
+                ></span>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--end header-->
+        <!--footer-->
+        <div
+          class="footer text-white text-[14px] absolute -bottom-0 text-center w-[300px]"
+        >
+          <p>
+            © Copyright Arian_WFD <br />
+            Designed by <span class="text-[#0c9ddd]">Arian Amini</span>
+          </p>
+        </div>
+        <!--end footer-->
+      </nav>
+      <!--end navbar-->
+      <!--main body-->
+      <section class="main w-[100%] lg:ml-[300px] lg:w-[calc(100%-300px)]">
+        <!--Home-->
+        <div
+          id="Home"
+          class="Home w-[100%] h-[1218px] bg-[url('/media/altumcode-dMUt0X3f59Q-unsplash.jpg')] bg-cover bg-fixed flex flex-col justify-center items-center"
+        >
+          <h1 class="text-white font-bold text-[64px]">
+            <span class="text-[#0c9ddd]">A</span>rian
+            <span class="text-[#0c9ddd]">A</span>mini
+          </h1>
+          <h1
+            id="typewriter"
+            class="text-[64px] font-bold text-[#0c9ddd] h-[96px]"
+          ></h1>
+        </div>
+        <!--About-->
+        <div id="About" class="about bg-white flex flex-col mx-auto p-[60px]">
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">About</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            repudiandae sequi omnis repellendus perferendis voluptates non amet
+            aut, placeat iure debitis optio hic explicabo, enim numquam tempore
+            provident animi. Aperiam.
+          </p>
+          <div class="prof flex flex-col xl:flex-row xl:flex my-10">
+            <img
+              src="media/IMG_20230805_210017_891.jpg"
+              alt=""
+              class="w-[270px] h-[270px] 2xl:w-[404px] 2xl:h-[404px] xl:w-[309px] xl:h-[309px] sm:w-[295px] sm:h-[295px] container animate__animated animate__fadeInLeft"
+            />
+            <div class="stat flex flex-col px-[12px]">
+              <h2 class="text-[#173b6c] text-[32px] font-semibold">
+                UI/UX Designer & Web Developer.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequatur voluptatibus magnam ipsum, explicabo at, maxime,
+                praesentium unde ex non quia natus!
+              </p>
+              <div class="info flex-col md:flex-row flex">
+                <div
+                  class="in1 flex flex-col w-[200px] col-span-12 container gap-[5px] lg:col-span-6 text-[16px] font-semibold"
+                >
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Birthday :
+                    </h4>
+                    <p>Aguest,2005</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Website :
+                    </h4>
+                    <p>www.AriamWFD.com</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Phone :
+                    </h4>
+                    <p>+989044453524</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      City :
+                    </h4>
+                    <p>Tehran,Iran</p>
+                  </div>
+                </div>
+                <div
+                  class="in2 flex flex-col w-[200px] col-span-12 container lg:col-span-6 text-[16px] font-semibold"
+                >
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Age :
+                    </h4>
+                    <p>18</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Degree :
+                    </h4>
+                    <p>Nothing XD</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      Email :
+                    </h4>
+                    <p>Ariamwfd@gmail.com</p>
+                  </div>
+                  <div>
+                    <h4 class="text-[24px] text-[#173b6c] font-semibold">
+                      FreeLance :
+                    </h4>
+                    <p>Available</p>
+                  </div>
+                </div>
+              </div>
+              <p class="pt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusantium necessitatibus laborum architecto veniam vitae,
+                rerum consectetur, maxime ducimus id nesciunt dolores voluptatem
+                commodi consequatur suscipit, quidem ipsum ea consequuntur
+                perferendis.
+              </p>
+            </div>
+          </div>
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Facts</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            mollitia, rem natus repellendus distinctio sit accusantium incidunt
+            voluptate dignissimos praesentium, soluta, voluptas odit quo at
+            neque et veniam. Voluptates, sint?
+          </p>
+          <div
+            class="stats container mx-auto p-[30px] mt-[10px] flex flex-col xl:flex-row xl:gap-[100px] justify-center"
+          >
+            <div class="counter flex items-center gap-2">
+              <img
+                src="media/icons8-happy-face-48.png"
+                alt=""
+                class="w-[72px] h-[72px]"
+              />
+              <div class="informs flex flex-col">
+                <h1 class="text-[48px] font-semibold text-[#0c9ddd]">000</h1>
+                <h3 class="text-[18px] font-semibold">Happy Clients</h3>
+                <p>Means All of them!!</p>
+              </div>
+            </div>
+            <div class="counter flex items-center gap-2">
+              <img
+                src="media/icons8-portfolio-48.png"
+                alt=""
+                class="w-[72px] h-[72px]"
+              />
+              <div class="informs flex flex-col">
+                <h1 class="text-[48px] font-semibold text-[#0c9ddd]">2</h1>
+                <h3 class="text-[18px] font-semibold">Projects Done</h3>
+                <p>Yeah i know...</p>
+              </div>
+            </div>
+            <div class="counter flex items-center gap-2">
+              <img
+                src="media/icons8-customer-support-48.png"
+                alt=""
+                class="w-[72px] h-[72px]"
+              />
+              <div class="informs flex flex-col">
+                <h1 class="text-[48px] font-semibold text-[#0c9ddd]">24</h1>
+                <h3 class="text-[18px] font-semibold">Hours of Supporting</h3>
+                <p>I care about the customers!!</p>
+              </div>
+            </div>
+            <div class="counter flex items-center gap-2">
+              <img
+                src="media/icons8-trust-48.png"
+                alt=""
+                class="w-[72px] h-[72px]"
+              />
+              <div class="informs flex flex-col">
+                <h1 class="text-[48px] font-semibold text-[#0c9ddd]">999+</h1>
+                <h3 class="text-[18px] font-semibold">My love for the trust</h3>
+                <p>so valuable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills p-[60px] w-[100%] bg-[#f5f8fd] flex flex-col">
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Skills</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            mollitia, rem natus repellendus distinctio sit accusantium incidunt
+            voluptate dignissimos praesentium, soluta, voluptas odit quo at
+            neque et veniam. Voluptates, sint?
+          </p>
+          <div
+            class="bars flex flex-col xl:flex-row justify-between gap-[20px] mt-[20px]"
+          >
+            <div class="bars2 flex flex-col gap-[20px]">
+              <div class="bar flex flex-col">
+                <span>Html : 90%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[90%] h-[10px] absolute"></span
+                ></span>
+              </div>
+              <div class="bar flex flex-col">
+                <span>Css : 90%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[85%] h-[10px] absolute"></span
+                ></span>
+              </div>
+              <div class="bar flex flex-col">
+                <span>JavaScript : 10%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[10%] h-[10px] absolute"></span
+                ></span>
+              </div>
+            </div>
+            <div class="bars2 flex flex-col gap-[20px]">
+              <div class="bar flex flex-col">
+                <span>Wordpress : 1%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[1%] h-[10px] absolute"></span
+                ></span>
+              </div>
+              <div class="bar flex flex-col">
+                <span>English : 90%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[90%] h-[10px] absolute"></span
+                ></span>
+              </div>
+              <div class="bar flex flex-col">
+                <span>UI Design : 50%</span
+                ><span
+                  class="bg-[#dce8f8] xl:w-[446px] 2xl:w-[540px] h-[10px] relative"
+                  ><span class="bg-[#0c9ddd] w-[50%] h-[10px] absolute"></span
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end about-->
+        <!--resume-->
+        <div
+          id="Resume"
+          class="resume p-[60px] w-[100%] bg-[white] flex flex-col"
+        >
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Resume</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            mollitia, rem natus repellendus distinctio sit accusantium incidunt
+            voluptate dignissimos praesentium, soluta, voluptas odit quo at
+            neque et veniam. Voluptates, sint?
+          </p>
+
+          <div
+            class="education flex flex-col self-center pl-[20px] border-l-2 border-[#173b6c] relative mt-[30px]"
+          >
+            <div
+              class="circle w-[16px] h-[16px] rounded-full border-2 border-[#173b6c] absolute top-[-13px] left-[-9px]"
+            ></div>
+            <h1 class="text-[32px] font-semibold">Education</h1>
+            <div class="information flex flex-col gap-[15px]">
+              <h1 class="text-[24px] font-bold">Educated from The MFT</h1>
+              <div class="year bg-[#f5f8fd] w-[115px] text-center p-[5px]">
+                2023 - 2023
+              </div>
+              <p class="text-justify">MFT,Enghelab ST,Tehran,Tehran,Iran</p>
+              <p>I learned Html Css and JavaScript From Mr.Harati at MFT....</p>
+            </div>
+          </div>
+        </div>
+        <!--end resume-->
+        <!--portfolio-->
+
+        <div class="Portfolio p-[60px] w-[100%] bg-[#f5f8fd] flex flex-col">
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Portfolio</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            mollitia, rem natus repellendus distinctio sit accusantium incidunt
+            voluptate dignissimos praesentium, soluta, voluptas odit quo at
+            neque et veniam. Voluptates, sint?
+          </p>
+
+          <div
+            class="items mx-auto mt-[20px] flex flex-col lg:flex-row flex-wrap gap-[40px] justify-center"
+          >
+            <img
+              src="media/portfolio-1.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-2.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-3.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-4.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-5.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-6.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-7.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-8.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            /><img
+              src="media/portfolio-9.jpg"
+              alt=""
+              class="sm:w-[404px] sm:h-[303px] w-[264px] h-[249px]"
+            />
+          </div>
+        </div>
+        <!--end portfolio-->
+
+        <!--services-->
+
+        <div
+          id="Services"
+          class="Services p-[60px] w-[100%] bg-[white] flex flex-col"
+        >
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Services</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            So This all the services i can offer to my customers:
+          </p>
+        </div>
+        <div
+          class="servs flex flex-col gap-[20px] flex-wrap xl:flex-row xl:gap-[50px] justify-center p-[60px]"
+        >
+          <div class="serv flex items-center gap-2 flex-wrap">
+            <div
+              class="icon bg-[#0c9ddd] w-[54px] h-[54px] rounded-full flex justify-center items-center"
+            >
+              <img
+                src="media/icons8-coding-96.png"
+                alt=""
+                class="w-[32px] h-[32px]"
+              />
+            </div>
+            <div class="informs flex flex-col">
+              <h3 class="text-[18px] font-semibold">
+                Code the designs you give!
+              </h3>
+              <p>Just exactly what you give me!!</p>
+            </div>
+          </div>
+          <div class="serv flex items-center gap-2 flex-wrap">
+            <div
+              class="icon bg-[#0c9ddd] w-[54px] h-[54px] rounded-full flex justify-center items-center"
+            >
+              <img
+                src="media/icons8-design-96.png"
+                alt=""
+                class="w-[32px] h-[32px]"
+              />
+            </div>
+            <div class="informs flex flex-col">
+              <h3 class="text-[18px] font-semibold">
+                Design The UI/Ux my self!
+              </h3>
+              <p>Of Course You have to pay more...</p>
+            </div>
+          </div>
+          <div class="serv flex items-center gap-2 flex-wrap">
+            <div
+              class="icon bg-[#0c9ddd] w-[54px] h-[54px] rounded-full flex justify-center items-center"
+            >
+              <img
+                src="media/icons8-translation-96.png"
+                alt=""
+                class="w-[32px] h-[32px]"
+              />
+            </div>
+            <div class="informs flex flex-col">
+              <h3 class="text-[18px] font-semibold">translate!</h3>
+              <p>translate persian and english texts.</p>
+            </div>
+          </div>
+          <div class="serv flex items-center gap-2 flex-wrap">
+            <div
+              class="icon bg-[#0c9ddd] w-[54px] h-[54px] rounded-full flex justify-center items-center"
+            >
+              <img
+                src="media/icons8-heart-96.png"
+                alt=""
+                class="w-[32px] h-[32px]"
+              />
+            </div>
+            <div class="informs flex flex-col">
+              <h3 class="text-[18px] font-semibold">
+                Most impotantly give you a hug!
+              </h3>
+              <p>Everybody needs a hug!</p>
+            </div>
+          </div>
+        </div>
+        <!--end services-->
+
+        <!--Comments-->
+        <div
+          id="Comments"
+          class="comments p-[60px] w-[100%] bg-[#f5f8fd] flex flex-col"
+        >
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Comments</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            similique tenetur adipisci, rem quos nobis cum modi, ut molestiae
+            deserunt quam exercitationem, corporis atque nemo! Laboriosam
+            expedita doloribus provident repellat?
+          </p>
+        </div>
+        <section
+          class="slider p-[60px] w-[100%] h-[400px] mx-auto bg-[#f5f8fd]"
+        >
+          <div class="swiper mySwiper bg-[#f5f8fd]">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-1.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-2.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-3.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-4.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-5.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+              <div
+                class="swiper-slide flex flex-col justify-center items-center"
+              >
+                <p
+                  class="w-[300px] text-[16px] bg-red rounded-lg shadow-gray-400 shadow-[3px_3px_30px] p-3 border-[#0c9ddd] border-2"
+                >
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia reprehenderit hic beatae aut saepe doloremque, totam,
+                  perspiciatis dolore mollitia praesentium eum optio ad
+                  blanditiis perferendis in nihil, quae dolor quos."
+                </p>
+                <div
+                  style="background-image: url(media/testimonials-1.jpg)"
+                  class="profile w-[90px] h-[90px] bg-cover rounded-full"
+                ></div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!--end Comments-->
+        <!--Contact-->
+
+        <div
+          id="Contact"
+          class="Contact p-[60px] w-[100%] bg-[white] flex flex-col"
+        >
+          <h2 class="text-[#173b6c] text-[32px] font-semibold">Contact Me</h2>
+          <div class="khat w-[50px] h-[3px] bg-[#0c9ddd]"></div>
+          <p class="mt-[10px]">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            neque corporis a molestias sequi incidunt blanditiis quaerat dolorum
+            laborum, numquam, nam enim? Fugit eius atque impedit similique!
+            Unde, in dolore? Consequuntur debitis nemo veniam vero asperiores
+            voluptatibus inventore quam dicta, corporis necessitatibus illo
+            ipsam quisquam beatae voluptates non obcaecati accusamus id culpa
+            doloribus mollitia? Id illo molestias consequatur temporibus vero.
+          </p>
+        </div>
+
+        <!--end contact-->
+        <div class="top">
+          <a
+            href="#Home"
+            class="w-[40px] h-[40px] bg-[#0c9ddd] rounded-full fixed bottom-[20px] right-[20px] flex justify-center items-center"
+            ><img src="media/icons8-up-96.png" alt="" class="w-[28px] h-[28px]"
+          /></a>
+        </div>
+      </section>
+      <!--end main body-->
+    </div>
+
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 200,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 300,
+          },
+          1894: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    <script>
+      const words = [
+        "Im Web Developer!",
+        "Im Freelanser!",
+        "Im The Guy you want!",
+      ];
+      let i = 0;
+      let j = 0;
+      let currentWord = "";
+      let isDeleting = false;
+
+      function type() {
+        currentWord = words[i];
+        if (isDeleting) {
+          document.getElementById("typewriter").textContent =
+            currentWord.substring(0, j - 1);
+          j--;
+          if (j == 0) {
+            isDeleting = false;
+            i++;
+            if (i == words.length) {
+              i = 0;
+            }
+          }
+        } else {
+          document.getElementById("typewriter").textContent =
+            currentWord.substring(0, j + 1);
+          j++;
+          if (j == currentWord.length) {
+            isDeleting = true;
+          }
+        }
+        setTimeout(type, 100);
+      }
+
+      type();
+    </script>
+  </body>
+</html>
